@@ -1,0 +1,48 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #181c1f;
+}
+.container
+{ 
+    position: relative;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,transparent,transparent, #0005);
+
+}
+.cloud
+{
+    position: relative;
+    width: 320px;
+    height: 100px;
+    background: #fff;
+    border-radius: 100px;
+    z-index: 100;
+    filter: drop-shadow(0 0 35px #fff);
+}
+.cloud::before
+{
+    content: '';
+    position: absolute;
+top: -50px;
+left: 40px;
+width: 110px;
+height: 110px;
+border-radius: 50%;
+background: #fff;
+box-shadow: 90px  0 0 30px #fff;
+}
