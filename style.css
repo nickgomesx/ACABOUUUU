@@ -46,3 +46,13 @@ border-radius: 50%;
 background: #fff;
 box-shadow: 90px  0 0 30px #fff;
 }
+
+.text
+{
+    position: absolute;
+    height: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 5px #fff;
+}
